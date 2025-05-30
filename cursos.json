@@ -2,7 +2,7 @@
     {
       "titulo": "Curso de GIT",
       "descricao": "Aprenda os fundamentos do GIT.",
-      "link": "https://github.com/teste/tutorial_git_github.html"
+      "link": "<a href='git/index.html>ir </a>"
     }, 
     {
       "titulo": "Curso de HTML e CSS",
