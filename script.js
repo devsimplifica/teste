@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
           div.innerHTML = `
             <h2>${curso.titulo}</h2>
             <p>${curso.descricao}</p>
-            <a href="${curso.link}" target="_blank">Acessar</a>
+            <a href="${curso.link}" >Acessar</a>
           `;
   
           container.appendChild(div);
