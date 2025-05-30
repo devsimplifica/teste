@@ -1,0 +1,18 @@
+[
+    {
+      "titulo": "Curso de HTML e CSS",
+      "descricao": "Aprenda os fundamentos da web moderna.",
+      "link": "https://github.com/seuusuario/curso-html-css"
+    },
+    {
+      "titulo": "Curso de JavaScript",
+      "descricao": "Conceitos básicos e avançados de JS.",
+      "link": "https://github.com/seuusuario/curso-javascript"
+    },
+    {
+      "titulo": "Curso de PHP",
+      "descricao": "Aprenda a linguagem do backend tradicional.",
+      "link": "https://github.com/seuusuario/curso-php"
+    }
+  ]
+  

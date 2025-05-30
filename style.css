@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cursos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 30px;
+  }
+  
+  .curso {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .curso h2 {
+    margin-top: 0;
+  }
+  
+  .curso a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .curso a:hover {
+    background: #2980b9;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #ecf0f1;
+    font-size: 14px;
+  }
+  
