@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Simples de Git + GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        pre {
+            background-color: #efefef;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        ul {
+            margin-top: 0;
+        }
+        .toc {
+            background-color: #eef;
+            padding: 15px;
+            border-left: 4px solid #88f;
+            margin-bottom: 30px;
+        }
+        .toc a {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Tutorial Simples de Git + GitHub</h1>
+
+<div class="toc">
+    <h2>Índice</h2>
+    <a href="#instalacao">1. Instalação do Git</a>
+    <a href="#configuracao">2. Configuração inicial do Git</a>
+    <a href="#conta">3. Criar uma conta no GitHub</a>
+    <a href="#repositorio">4. Criar um repositório no GitHub</a>
+    <a href="#clonar">5. Clonar o repositório na sua máquina</a>
+    <a href="#trabalhar">6. Trabalhar no projeto</a>
+    <a href="#receber">7. Receber mudanças do GitHub</a>
+    <a href="#comandos">8. Comandos extras úteis</a>
+    <a href="#dicas">9. Dicas para o dia a dia</a>
+    <a href="#interface">10. Interface gráfica (opcional)</a>
+</div>
+<h2 id="instalacao">1. Instalação do Git</h2>
+
+<b>🔹 Windows:</b><br>
+1. Acesse: <a href="https://git-scm.com/download/win" target="_blank">https://git-scm.com/download/win</a><br>
+2. Baixe e instale com as configurações padrão.<br><br>
+<b>🔹 Linux (Ubuntu):</b>
+<pre>sudo apt update
+sudo apt install git</pre>
+<b>🔹 MacOS (via Homebrew):</b>
+<pre>brew install git</pre>
+    
+<h2 id="configuracao">2. Configuração inicial do Git</h2>
+
+<pre>git config --global user.name "Seu Nome"
+git config --global user.email "seu@email.com"
+git config --list</pre>
+    
+<h2 id="conta">3. Criar uma conta no GitHub</h2>
+
+1. Vá para <a href="https://github.com" target="_blank">https://github.com</a><br>
+2. Crie uma conta gratuitamente<br>
+3. (Opcional) Adicione uma foto e bio
+    
+<h2 id="repositorio">4. Criar um repositório no GitHub</h2>
+
+1. Clique em “New repository”<br>
+2. Dê um nome (ex: <code>meu-projeto</code>)<br>
+3. Escolha se será público ou privado<br>
+4. (Opcional) Marque “Add a README”<br>
+5. Clique em <b>Create repository</b>
+    
+<h2 id="clonar">5. Clonar o repositório na sua máquina</h2>
+
+<pre>git clone https://github.com/seu-usuario/nome-do-repositorio.git
+cd nome-do-repositorio</pre>
+    
+<h2 id="trabalhar">6. Trabalhar no projeto</h2>
+
+Fluxo básico:
+<pre>git status
+git add .
+git commit -m "Mensagem explicando"
+git push</pre>
+    
+<h2 id="receber">7. Receber mudanças do GitHub</h2>
+
+<pre>git pull</pre>
+    
+<h2 id="comandos">8. Comandos extras úteis</h2>
+
+<pre>git log              # Mostra o histórico de commits
+git checkout -b nome-da-branch  # Cria nova branch
+git switch nome-da-branch       # Troca para outra branch
+git merge nome-da-branch        # Mescla branch com a atual</pre>
+    
+<h2 id="dicas">9. Dicas para o dia a dia</h2>
+
+<ul>
+<li>Faça <b>commits pequenos e frequentes</b>.</li>
+<li>Escreva <b>mensagens claras</b> no commit.</li>
+<li>Sempre dê um <code>git pull</code> antes de começar a trabalhar.</li>
+</ul>
+    
+<h2 id="interface">10. Interface gráfica (opcional)</h2>
+
+<ul>
+<li><b>GitHub Desktop</b>: <a href="https://desktop.github.com" target="_blank">https://desktop.github.com</a></li>
+<li><b>VS Code</b>: suporte a Git embutido</li>
+<li><b>Sourcetree</b>: ferramenta da Atlassian para Git</li>
+</ul>
+    
+
+</body>
+</html>
